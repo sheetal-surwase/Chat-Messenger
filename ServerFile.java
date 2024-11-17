@@ -5,9 +5,9 @@ class ServerFile
 {
     public static void main(String Arg[]) throws Exception
     {
-        System.out.println("Server of Marvellous Chat Messenger running.....");
+        System.out.println("Server of Chat Messenger running.....");
         ServerSocket ssobj = new ServerSocket(2100);
-        System.out.println("Server of Marvellous Chat Messenger in listening mode at port no: 2100");
+        System.out.println("Server of Chat Messenger in listening mode at port no: 2100");
 
         Socket sobj = ssobj.accept();
         System.out.println("Client and server connection is successfull...");
